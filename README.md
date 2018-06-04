@@ -1,2 +1,2 @@
 # crakingcodinginterview
-Solutions for Cracking coding interviews problems on Hacker rank in swift
+Solutions for Cracking the Coding Interview problems on Hacker rank in swift
