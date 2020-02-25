@@ -13,7 +13,7 @@ This application shows most popular articles from NY times. User can filter by D
 - Storyboads
 - View Controllers
 - Views
-- Model
+- Models
 - Repository
 - Extensions
 - Helpers
@@ -44,12 +44,19 @@ There two view controllers. ArticlesViewController contains list of article comi
 
 * **Views**: 
 
-This section contain only 1 class which is ArticleTableViewCell. This class is used for table view in ArticlesViewController.
+This section contain only 1 class which is ArticleTableViewCell. This class is used for table view in ArticlesViewController. Codable is used for parsing JSON.
 
-* **Model**
+* **Models**:
 
+This section is responsible for hanlding response models and View models. 
 
-* Extension
+* **Repository**:
+
+This section is reponsible for sending requests by using network layer. 
+
+* **Extensions**:
+
+* **Helpers**:
 
 # Application Screenshots
 
@@ -64,4 +71,3 @@ This section contain only 1 class which is ArticleTableViewCell. This class is u
 * Detail Screen
 
 ![Detail](https://user-images.githubusercontent.com/2598508/75229943-5b01a200-57cc-11ea-9dd7-3d67b757dd2e.png)
-
