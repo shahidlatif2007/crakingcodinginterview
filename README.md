@@ -18,6 +18,8 @@ This application shows most popular articles from NY times. User can filter by D
 - Extensions
 - Helpers
 
+
+
 * **Configurations**:
 
 This contains configuration for different schemes. It has Development, Staging and productions. Each build has different app id, app name and application url. It has following schemes.
@@ -56,7 +58,12 @@ This section is reponsible for sending requests by using network layer.
 
 * **Extensions**:
 
+This secons contain extension for String, Dictionary, Label and Image View. Image View extension is used to download and show the image. Label extension is being used to show text and image.
+
+
 * **Helpers**:
+
+This section contains **Box.swift** and Constants.h. **Box.swift** is used to bind the reqeuired variable to UI. If there is any change the in the variable its listener is called. This is useful instead of callback I have used this class to notify when anything change the variable.
 
 # Application Screenshots
 
